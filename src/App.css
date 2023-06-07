@@ -1,0 +1,60 @@
+.form-container {
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  color : 	midnightblue;
+  background-color: #f4f4f4;
+}
+
+.form-heading {
+  text-align: center;
+  color: darkorange;
+  margin-bottom: 0px;
+}
+
+.form-subheading {
+  text-align: center;
+  color: 	darksalmon;
+  margin-bottom: 10px;
+}
+
+.form-box {
+  width: 400px;
+  padding: 15px;
+  border: 1px solid red;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.form-label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-submit {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form-message {
+  text-align: center;
+  margin-top: 20px;
+}

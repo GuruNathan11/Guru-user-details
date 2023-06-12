@@ -114,7 +114,7 @@ function JobApplicationForm() {
           </div>
           <div className='form-group'>
             <label className='form-label'>Resume:</label>
-            <input id = 'file-input' className='form-input' type='file' onChange={(e) => setFile(e.target.files[0])} />
+            <input id = 'file-input' className='form-input' type='file'  accept='.pdf' onChange={(e) => setFile(e.target.files[0])} />
           </div>
           <button type='submit' className='form-submit' disabled={isSubmitting}>
             {isSubmitting ? 'Submitting...' : 'Submit'}
